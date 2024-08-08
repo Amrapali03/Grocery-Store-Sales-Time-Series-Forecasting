@@ -22,6 +22,10 @@ Full date details is joined with oil dates
 ## Observations:
 1. Average Sales and Seasonality
 
+- The spread of the red dots around the blue line seems to widen over time. This could indicate that as sales have grown, the variability in daily sales has also increased.
+![image](https://github.com/user-attachments/assets/e94bab1e-5e22-4ee5-adb0-e06911aea9c8)
+
+
 - It is interesting to observe that the weekly and monthly average curves are very similar, while the annual average is quite different from them. The latter curve is strongly influenced by the first minimum.
 ![image](https://github.com/user-attachments/assets/d719c43f-e29d-4064-99e1-c379ca52ea22)
 
