@@ -15,6 +15,7 @@ Additional files  like Daily oil price and holiday events include supplementary 
 
 
 ## Observations:
+1. Average Sales and Seasonality
 A moving average plot shows what kind of trend the series has. Since this series has daily observations, it is good to choose a window of 365 days to smooth over any short-term changes within the year.
 ![image](https://github.com/user-attachments/assets/3de15e1e-cc92-4cb5-a922-7b0878f36be3)
 
@@ -29,15 +30,24 @@ But there are also other features, like the semiweekly and the biweekly peaks.
 Similarly to the above seasonal plot, the periodogram is used to underline the possible presence of periodic features in the time series.
 ![image](https://github.com/user-attachments/assets/a8ca17cd-c9b1-4041-8509-57311ddeb2a8)
 
-
+180 day forecast
 ![image](https://github.com/user-attachments/assets/84b5f830-6eff-4ab9-8691-5d2fe1579664)
 
+2. Oil Price vs Sales vs Promotions:
 
-![image](https://github.com/user-attachments/assets/1d850b0a-05be-4f41-a054-7dc14aad225e)
+It seems like that the average sales have gone up when the oil prices were low and high and less sales were there when the oil prices were medium.
+![image](https://github.com/user-attachments/assets/47555c17-7b71-4221-a35e-e84bce7649ce)
 
 The plot and its linear interpolation show that stores promote items only when the oil price is medium/low.
-![image](https://github.com/user-attachments/assets/722fa15a-0f73-475f-8607-0a49447885cd)
+![image](https://github.com/user-attachments/assets/9e192f51-92b7-4df7-9392-f580bea88054)
 
+As expected, the average sales increase when there are items on promotion.
+![image](https://github.com/user-attachments/assets/484883cf-6ec2-4004-bfc5-fc69652ee164)
+
+
+3. Sales per Season, by Store and Article Type
+
+![image](https://github.com/user-attachments/assets/a23783b4-1510-4b40-805d-1468627714f1)
 
 
 
