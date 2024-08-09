@@ -33,6 +33,7 @@ Full date details is joined with oil dates
 ![image](https://github.com/user-attachments/assets/3de15e1e-cc92-4cb5-a922-7b0878f36be3)
 
 - By fitting the sales data by linear regression, it is possible to get a very rough description of their trend and also to get a preliminary forecast of the future sales.
+- The model predicts sales based purely on the passage of time, ignoring any seasonal or cyclical effects. The predicted values (y_pred) represent the fitted linear trend in the sales data, which can be used for forecasting future sales over a specified period (like 6 months).
 ![image](https://github.com/user-attachments/assets/745da394-27ab-480f-9f89-46a5cac675ad)
 
 - The figure (top half) shows a clear weekly pattern, with the sales going up in the second part of the week.
