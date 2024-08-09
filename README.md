@@ -8,13 +8,22 @@ This is part of a Kaggle competition dataset: https://www.kaggle.com/competition
 For grocery stores, more accurate forecasting can decrease food waste related to overstocking and improve customer satisfaction. 
 We  will predict sales for the thousands of product families sold at Favorita stores located in Ecuador. 
 
-## Data Preprocessing
-Exploratory Data Analysis (EDA): Initial steps include understanding the data distribution, identifying any trends, seasonality, and anomalies.
-Data Cleaning: Handling missing values, outliers, and data transformations to make the data suitable for time series modeling.
+## Data 
 The training data includes dates, store and product information, whether that item was being promoted, and sales numbers. 
+The test data, having the same features as the training data. You will predict the target sales for the dates in this file.
+The dates in the test data are for the 15 days after the last date in the training data.
+
+- Additional Notes
 Additional files  like Daily oil price and holiday events include supplementary information that will be useful in building models.
+Ecuador is an oil-dependent country and it's economical health is highly vulnerable to shocks in oil prices.
+
+Wages in the public sector are paid every two weeks on the 15 th and on the last day of the month. Supermarket sales could be affected by this.
+A magnitude 7.8 earthquake struck Ecuador on April 16, 2016. People rallied in relief efforts donating water and other first-need products which greatly affected supermarket sales for several weeks after the earthquake.
+
 
 ## Data Cleaning and Preparation
+Exploratory Data Analysis (EDA): Initial steps include understanding the data distribution, identifying any trends, seasonality, and anomalies.
+Data Cleaning: Handling missing values, outliers, and data transformations to make the data suitable for time series modeling.
 The null values of the date dataset is handled.
 We also fill in missing dates in the oil price data and then handle any gaps in the oil price values using linear interpolation. 
 This is important for time series analysis, where continuous data is crucial for accurate modeling.
@@ -73,9 +82,11 @@ But there are also other features, like the semiweekly and the biweekly peaks.
 - Top 3 Article Types by number of sales are Grocery II, Beverages and Prepared Food.
 - Highest performing store is 44.
 - Highest sales has been in the state Pichincha followed by Guayas.
-- Highest sales has been in the city of Quito followed by Guayaquil
-- Average sales has been highest in the year 2016 and during the season of Apr-Jun
-- the average sales increase when there are items on promotion.
+- Highest sales has been in the city of Quito followed by Guayaquil.
+- Average sales has been highest in the year 2016 which could be effect of 2016 earthquake.
+- Average sales are also high during the season of Apr-Jun.
+- The average sales increase when there are items on promotion.
+- As per seasonality biweekly peaks are observed which aligns with the factor that wages are given biweekly and end of month.
 
 
 ## Citation
