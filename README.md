@@ -49,7 +49,7 @@ But there are also other features, like the semiweekly and the biweekly peaks.
 
 2. Oil Price vs Sales vs Promotions:
 
-- It seems like that the average sales have gone up when the oil prices were low and high and less sales were there when the oil prices were medium.
+-  A linear fit of the points, although rough, shows that the number of sales decreases as the oil price rises.
 ![image](https://github.com/user-attachments/assets/47555c17-7b71-4221-a35e-e84bce7649ce)
 
 - The plot and its linear interpolation show that stores promote items only when the oil price is medium/low.
