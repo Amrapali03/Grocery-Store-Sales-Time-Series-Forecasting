@@ -6,9 +6,11 @@ This is part of a Kaggle competition dataset: https://www.kaggle.com/competition
 
 ## Goal:
 For grocery stores, more accurate forecasting can decrease food waste related to overstocking and improve customer satisfaction. 
-
-## Dataset Description
 We  will predict sales for the thousands of product families sold at Favorita stores located in Ecuador. 
+
+## Data Preprocessing
+Exploratory Data Analysis (EDA): Initial steps include understanding the data distribution, identifying any trends, seasonality, and anomalies.
+Data Cleaning: Handling missing values, outliers, and data transformations to make the data suitable for time series modeling.
 The training data includes dates, store and product information, whether that item was being promoted, and sales numbers. 
 Additional files  like Daily oil price and holiday events include supplementary information that will be useful in building models.
 
@@ -67,6 +69,13 @@ But there are also other features, like the semiweekly and the biweekly peaks.
 
 ![image](https://github.com/user-attachments/assets/76b74529-568b-4f99-8994-911d02395e6a)
 
+## Conclusion
+- Top 3 Article Types by number of sales are Grocery II, Beverages and Prepared Food.
+- Highest performing store is 44.
+- Highest sales has been in the state Pichincha followed by Guayas.
+- Highest sales has been in the city of Quito followed by Guayaquil
+- Average sales has been highest in the year 2016 and during the season of Apr-Jun
+- the average sales increase when there are items on promotion.
 
 
 ## Citation
